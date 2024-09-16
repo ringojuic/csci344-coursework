@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./public/output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 4: Tailwind</title>
+</head>
+
+<body>
+    <div class="font-Poppins flex flex-col justify-center items-center min-h-screen"> <!-- top-level container (for centering the card)-->
+        <div class="max-w-[350px] flex flex-col shadow-md rounded-md"> <!-- card container -->
+            <img class="max-h-56 object-cover rounded-t-md" src="./assets/burger.jpg" alt="burger dish" />
+            <!-- text container-->
+            <div class="p-4">
+                <h2 class="text-lg mb-1">Burger Tower</h2>
+                <h3 class="text-sm mb-4 text-zinc-600">4.5 / 5 Stars (413 Reviews)</h3>
+                <p class="text-xs mb-2">$$ - American, Burgers</p>
+                <p class="text-xs mb-4 text-zinc-600">
+                    Well-known burger franchise serving burgers, fries, and shakes.
+                </p>
+                <!-- button container-->
+                <div class="flex gap-x-2">
+                    <button class="btn bg-custom-purple">View Website</button>
+                    <button class="btn bg-custom-blue">Order Curbside</button>
+                </div> <!-- end button container-->
+            </div> <!-- end text container-->
+        </div> <!-- end card container -->
+    </div> <!-- end top-level container -->
+    
+</body>
+
+</html>
